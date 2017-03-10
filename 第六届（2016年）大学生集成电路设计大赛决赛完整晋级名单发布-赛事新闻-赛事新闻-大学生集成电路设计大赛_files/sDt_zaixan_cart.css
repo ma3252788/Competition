@@ -1,0 +1,62 @@
+/*= Reset =*/
+*{word-wrap:break-word;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+
+
+
+/*= Common style =*/
+.clearfix{zoom:1;}
+.clearfix:after{content:".";display:block;clear:both;height:0;overflow:hidden;visibility:hidden;}
+
+
+.tool-wrap{font-size:14px; letter-spacing:2px;font-weight:normal;position:absolute;top:130px;z-index:40; font-family:Microsoft Yahei;}	
+
+.sDt_float-tool-mini{display:none;width:38px;background:#000000;}
+
+.sDt_float-tool-mini .link-open a{display:block;width:38px; height:38px;color:#ffffff;line-height:38px;text-align:center;}
+.sDt_float-tool-mini .link-open a:hover{text-decoration:none;}
+
+.sDt_float-tool{width:38px; background:#eaeaea}
+.sDt_float-tool .link-close{background:#000000;}
+.sDt_float-tool .link-close a{display:block;width:38px;height:38px; text-align:center; line-height:38px; color:#FFFFFF;}
+.sDt_float-tool .tool-list li a{display:block;color:#333;text-decoration:none;}
+.sDt_float-tool .tool-list li .tool-btn{height:16px;line-height:16px;padding:33px 0 8px;overflow:hidden;text-align:center;background:url(http://img1.sendong.com/default/sDtves_tool-icon.png) no-repeat 0 -9999px;}
+.sDt_float-tool .tool-list li .tool-btn:hover{text-decoration:none;background-color:#ddd;}
+.sDt_float-tool .tool-list li.cart .tool-btn{background-position:20px -411px;}
+.sDt_float-tool .tool-list li.chat .tool-btn{background-position:20px 14px;}
+.sDt_float-tool .tool-list li.fav .tool-btn{background-position:21px -42px;}
+.sDt_float-tool .tool-list li.setindex .tool-btn{background-position:21px -94px;}
+.sDt_float-tool .tool-list li.follow .tool-btn{background-position:19px -147px;}
+.sDt_float-tool .tool-list li.share .tool-btn{background-position:21px -205px;}
+.sDt_float-tool .tool-list li.dEs_member .tool-btn{background-position:21px -546px;}
+.sDt_float-tool .tool-list li.cart,
+.sDt_float-tool .tool-list li.box{position:relative;}
+.sDt_float-tool .tool-list li.cart .total{position:absolute;right:5px;top:5px;display:block;width:17px;height:19px;background:url(http://img1.sendong.com/default/sDtves_tool-icon.png) no-repeat 0 -480px;font-family:Arial, Helvetica, sans-serif;font-size:10px;font-weight:bold;color:#fff;line-height:16px;}
+.sDt_float-tool .tool-list li.cart .tool-btn:hover .total{background-position:0 -499px;}
+.sDt_float-tool .tool-list li.box .more{display:block;position:absolute;left:1px;top:1px;width:4px;height:4px;overflow:hidden;background:url(http://img1.sendong.com/default/sDtves_tool-btn.png) no-repeat -230px -13px;}
+.sDt_float-tool .tool-list li.operate{_position:relative;margin-bottom:-1px;background:#ddd;height:8px;overflow:hidden;border-top:1px solid #c9c9c9;border-bottom:1px solid #c9c9c9;}
+.sDt_float-tool .tool-list li.operate a{display:block;height:8px;padding:0;background:url(http://img1.sendong.com/default/sDtves_tool-btn.png) no-repeat 0 -9999px;text-indent:-9999px;}
+.sDt_float-tool .tool-list li.operate .openbtn{background-position:-203px 2px;}
+.sDt_float-tool .tool-list li.operate .closebtn{background-position:-203px -33px;}
+
+.sDt_float-tool .child{position:absolute;left:-120px;top:0;display:none;width:119px;background:#f8f8f8;border:1px solid #d7d7d7;border-right:none;}
+.sDt_float-tool .child .title{color:#666;font-weight:bold;height:30px;line-height:30px;text-align:center;overflow:hidden;background:#eee;border-bottom:1px solid #e4e4e4;}
+.sDt_float-tool li.chat .child .choise{background-position:51px 14px;}
+.sDt_float-tool li.follow .child .choise{background-position:49px -147px;}
+.sDt_float-tool li.share .child .choise{background-position:51px -205px;}
+.sDt_float-tool .child-list li{border:none;}
+.sDt_float-tool .child-list li a{color:#333;height:24px;line-height:24px;overflow:hidden;padding:0 10px 0 30px;text-align:left;background-repeat:no-repeat;background-position:5px 50%;}
+.sDt_float-tool .child-list li a:hover{opacity:0.75; _text-decoration:underline;}
+.sDt_float-tool li.follow .child-list li a{background:url(http://img1.sendong.com/default/sDtves_tool-icon.png) no-repeat 0 -9999px;}
+.sDt_float-tool li.follow .child-list li.sina a{background-position:7px -316px;*background-position:7px -318px;}
+.sDt_float-tool li.follow .child-list li.qq a{background-position:7px -362px;*background-position:7px -364px;}
+
+.sDt_float-tool .tool-list .bshare-custom{padding:3px 7px;}
+.sDt_float-tool .tool-list .bshare-custom a{margin:8px 0;}
+
+.tool-wrap .link-top{background:#eaeaea;width:38px;border-top:none;}
+.tool-wrap .link-top a{display:block;width:38px;height:50px;overflow:hidden; color:#3b3b3b; line-height:55px; text-align:center; background:url(http://img1.sendong.com/default/common/top_imges_ds.png) no-repeat 15px 4px;}
+
+.tool-wrap-mini .link-top{width:38px;border:none;}
+.tool-wrap-mini .link-top a{display:block;width:38px;height:30px; text-indent:-9999px;}
+.sDt_box .asies_nav p{ color:#29ccef; letter-spacing:1px; font-size:12px; width:36px; overflow:hidden;}
